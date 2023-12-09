@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Profile</title>
+  <link rel="stylesheet" href="portfolio.css">
+  <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+  <link rel="icon" href="avatar.png" type="image/x-icon">
+</head>
+
+<body>
+
+  <header>
+    <img src="avatar.png" alt="Profile Picture" class="profile-picture" id="profilePicture">
+    <nav>
+      <a href="#skills" class="scroll-link">Skills</a>
+      <a href="#experience" class="scroll-link">Experience</a>
+      <a href="#projects" class="scroll-link">Projects</a>
+      <a href="#contact" class="scroll-link">Contact</a>
+    </nav>
+  </header>
+
+  <div class="container">
+    <section id="skills" class="main-content">
+      <div class="content">
+        <h2>Skills</h2>
+        <div class="skills">
+          <a style="text-decoration: none;" href="https://www.w3schools.com/html/" target="_blank" class="skill-card">
+            <span>HTML</span>
+            <div class="progress-bar">
+              <div class="progress-fill" id="htmlProgress" style="width: 90%;"></div>
+            </div>
+          </a>
+          <a style="text-decoration: none;" href="https://www.w3schools.com/css/" target="_blank" class="skill-card">
+            <span>CSS</span>
+            <div class="progress-bar">
+              <div class="progress-fill" id="cssProgress" style="width: 50%;"></div>
+            </div>
+          </a>
+          <a style="text-decoration: none;" href="https://www.w3schools.com/js/" target="_blank" class="skill-card">
+            <span>JavaScript</span>
+            <div class="progress-bar">
+              <div class="progress-fill" id="jsProgress" style="width: 25%;"></div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience" class="main-content">
+      <div class="content">
+        <h2>Experience</h2>
+        <ol>
+          <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed laoreet ante in odio pellentesque ultrices et
+            ut quam. Donec bibendum ipsum at urna pulvinar, auctor fringilla ante sodales. Sed sit.</li><br>
+          <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed laoreet ante in odio pellentesque ultrices et
+            ut quam. Donec bibendum ipsum at urna pulvinar, auctor fringilla ante sodales. Sed sit.</li><br>
+          <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed laoreet ante in odio pellentesque ultrices et
+            ut quam. Donec bibendum ipsum at urna pulvinar, auctor fringilla ante sodales. Sed sit.</li><br>
+          <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed laoreet ante in odio pellentesque ultrices et
+            ut quam. Donec bibendum ipsum at urna pulvinar, auctor fringilla ante sodales. Sed sit.</li><br>
+          <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed laoreet ante in odio pellentesque ultrices et
+            ut quam. Donec bibendum ipsum at urna pulvinar, auctor fringilla ante sodales. Sed sit.</li><br>
+        </ol>
+      </div>
+    </section>
+
+    <section id="projects" class="main-content">
+      <div class="content">
+        <h2>Projects</h2>
+        <div class="project-cards">
+          <a style="text-decoration: none;" href="https://www.w3schools.com/html/" target="_blank" class="project-card">
+            <h3 style="margin-bottom: 10px;">Project 1</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nulla ante, scelerisque quis egestas vel,
+              dapibus a metus. Duis ut dapibus tortor, eget rhoncus lorem. Donec sit amet commodo lorem.</p>
+          </a>
+          <a style="text-decoration: none;" href="https://www.w3schools.com/css/" target="_blank" class="project-card">
+            <h3 style="margin-bottom: 10px;">Project 2</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nulla ante, scelerisque quis egestas vel,
+              dapibus a metus. Duis ut dapibus tortor, eget rhoncus lorem. Donec sit amet commodo lorem.</p>
+          </a>
+          <a style="text-decoration: none;" href="https://www.w3schools.com/js/" target="_blank" class="project-card">
+            <h3 style="margin-bottom: 10px;">Project 3</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nulla ante, scelerisque quis egestas vel,
+              dapibus a metus. Duis ut dapibus tortor, eget rhoncus lorem. Donec sit amet commodo lorem.</p>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="main-content contact-info" style="margin-bottom: 50px;">
+      <div class="content">
+        <h2>Contact Information</h2>
+        <p><strong>Email:</strong> developer@example.com</p>
+        <p><strong>Phone:</strong> (555) 123-4567</p>
+      </div>
+    </section>
+  </div>
+  <footer>
+    <p>&copy; 2023 My Profile. All rights reserved.</p>
+  </footer>
+</body>
+<script src="portfolio.js"></script>
+</html>
