@@ -1,32 +1,37 @@
-# Project README
+# Project Overview
 
-## Overview
+This project consists of a personal portfolio website (`portfolio.html`) and a sign-in form (`signin.html`) for user authentication. The portfolio showcases skills, experiences, and projects. Additionally, a sign-in form is implemented with JavaScript to control access to the portfolio.
 
-This project is a simple sign-in form implementation with JavaScript validation. The project includes a sign-in form where users can enter their username and password. The provided JavaScript code validates the entered credentials, and if correct, it redirects the user to a fictional portfolio page (`portfolio.html`). The project also includes basic styling using CSS.
+## Files and Structure
 
-## Implementation
+### Portfolio
+- **portfolio.html:** The main HTML file for the portfolio website.
+- **portfolio.css:** The stylesheet for styling the portfolio.
+- **portfolio.js:** JavaScript file for handling dynamic behavior in the portfolio.
 
-The project consists of the following files:
+### Sign-In
+- **signin.html:** HTML file containing the sign-in form.
+- **signin.css:** Stylesheet for styling the sign-in form.
+- **signin.js:** JavaScript file for user authentication in the sign-in form.
 
-- `index.html`: The main HTML file containing the sign-in form and linking to the necessary styles and scripts.
-- `signin.css`: The CSS file providing styles for the sign-in form.
-- `script.js`: The JavaScript file responsible for validating user credentials and managing sign-in attempts.
+### Others
+- **avatar.png:** Profile picture/logo used in both the portfolio and sign-in pages.
 
-## How to Use
+## Features Implemented
+### Portfolio Page
+- **Header:** Contains a navigation menu with smooth scrolling to different sections.
+- **Skills Section:** Displays skills with progress bars.
+- **Experience Section:** Lists experience with Lorem Ipsum content.
+- **Projects Section:** Showcases projects with brief descriptions.
+- **Contact Section:** Provides contact information.
 
-1. Open `index.html` in a web browser to view the sign-in form.
-2. Enter the provided username (`user`) and password (`password`) for a successful sign-in attempt.
-3. Upon successful sign-in, you will be redirected to a fictional portfolio page.
-4. The form allows a maximum of 5 sign-in attempts. After exceeding this limit, the form becomes disabled.
-
-Feel free to customize the project according to your needs, such as adding more features, improving styling, or integrating with a server for user authentication.
+### Sign-In Page
+- **Username and Password:** User input fields for entering a username and password.
+- **Validation:** JavaScript validates user credentials.
+- **Trials Counter:** Displays the remaining sign-in trials.
+- **Disabled Form:** Disables the form after five incorrect sign-in attempts.
 
 ## Contributors
-
-- [Your Name]
-- [Contributor 1]
-- [Contributor 2]
-
-## License
-
-This project is licensed under the [License Name]. See the [LICENSE.md](LICENSE.md) file for details.
+- [Fady Ashraf]
+- [Nour Yasser]
+- [Youssef El Kilany]
