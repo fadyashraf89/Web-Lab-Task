@@ -65,6 +65,7 @@ img.profile-picture {
   background-color: #ffffff;
   margin-right: 15px;
   transition: transform 0.3s ease-in-out;
+  cursor: pointer;
 }
 
 .main-content {
@@ -191,5 +192,7 @@ h2 {
   line-height: 1.6;
 }
 
-
+.transparent {
+  opacity: 0;
+}
 
